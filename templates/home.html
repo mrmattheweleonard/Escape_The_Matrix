@@ -3,4 +3,12 @@
 {% block content %}
 <h1>ESC The Matrix</h1>
 
+{% csrf_token %}
+
+{% for welcome_paragraph in object_list  %}
+
+<p>{{ home.welcome_paragraph }}</p>
+{% endfor %}
+
+
 {% endblock content %}

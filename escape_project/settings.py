@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     # Local
 
     'episodes',
-    'home'
+    'home',
+    'about',
 ]
 
 MIDDLEWARE = [
